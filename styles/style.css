@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Header > nav + banner part styles here */
+.container{
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid green;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.fitness-container{
+    width: 90%;
+    margin: 1rem auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1, .a1{
+    margin-left: 1.5rem;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn1{
+    padding: 6px;
+    border-radius: 46px;
+    font-size: 14px;
+    font-weight: 500;
+    background: rgb(230, 83, 60);
+    color: white;
+    border: none;
+    width: 85px;
+    height: 30px;
+    margin-left: 12px;
+    
+}
+.leftside{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    width: 355px;
+    
+}
+.banner-container{
+    width: 90%;
+    margin: 2.6rem auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.part1{
+    margin-top: 70px;
+    font-size: 58px;
+    font-weight: 900;
+}
+.part2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.5)
+}
+.writing{
+    font-family: 'Lucida Handwriting', cursive;
+}
+.btn2{
+    width: 220px;
+    height: 50px;
+    border-radius: 44px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn3{
+    width: 220px;
+    height: 50px;
+    border-radius: 44px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.img-container{
+    position: relative;
+}
+.circle{
+    margin-left: 7px;
+    margin-top: 14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    margin-right: 7px;
+}
+.text p{
+    color: rgba(239, 237, 232, 0.65);
+    margin-top: 7px;
+}
+.text{
+    margin-top: 14px;
+}
+.style1{
+    display: flex;
+    width: 180px;
+    height: 76px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 530px;
+    left: 60%;
+}
+.style2{
+    width: 180px;
+    height: 95px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top:250px ;
+    left: 84%;
+    
+}
+.text2 p{
+    color: rgba(239, 237, 232, 0.65);
+    margin-top: 7px;
+}
+.text2{
+    margin-top: 14px;
+    margin-left: 12px;
+}
+/* Header > nav + banner part styles End here */
