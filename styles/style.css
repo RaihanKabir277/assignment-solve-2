@@ -162,7 +162,7 @@ body{
     height: 450px;
     margin: 0 auto;
     margin-top: 2rem;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: ;
 }
 .part3{
@@ -198,6 +198,51 @@ body{
 
 /* Change your habit part styles ends here */
 
+/* Run an Extra mile styles here */
+.run-container{
+    width: 90%;
+    margin: 0 auto;
+    height: 350px;
+    margin-top: 2rem;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part4{
+    width: 440px;
+    height: 300px;
+    /* border: 2px solid green; */
+    padding: 20px;
+    margin-left: 50px;
+    
+}
+.part4 h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.part4 p{
+    margin-bottom: 30px;
+    
+}
+
+.running-img{
+    width: 370px;
+    height: 300px; 
+    /* border: 2px solid green; */
+    background-image: url(../styles/run.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+/* Run an Extra mile styles ends here */
 
 /* Responsive part starts here */
 
@@ -205,10 +250,26 @@ body{
     .img-container2{
         margin-top: 4rem;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         width: 100%;
     }
     .img1{
         text-align: left;
+    }
+    .run-container{
+       
+        margin-top: 900px;
+        flex-direction: column;
+        height: 620px;
+    }
+    .
+    .part4{
+        width: 90%;
+        padding: 0;
+        margin-left: 50px;
+        
+    }
+    .running-img{
+        margin-right: 0;
     }
 }
