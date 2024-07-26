@@ -206,7 +206,7 @@ body{
     margin-top: 2rem;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -243,6 +243,76 @@ body{
 }
 
 /* Run an Extra mile styles ends here */
+/* BMI calculator styles here  */
+
+.bmi-container{
+    margin-top: 3rem;
+     width: 40%;
+     margin-left: 30%;
+}
+
+/* BMI calculator styles ends here  */
+/* bmi calculator and box user input styles here */
+
+.bmi-box{
+    width: 100%;
+    height: 400px;
+    margin-top: 3rem;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.bmi-calculator table{
+    margin-top: 2rem;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    border-collapse: collapse;
+
+}
+.bmi-calculator td,th{
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    padding: 10px;
+    
+}
+.bmi-calculator td{
+color: rgba(255, 255, 255, 0.60);
+}
+.bmi-calculator tr{
+    text-align: left;
+}
+.bmi-calculator{
+    margin-top: 2rem;
+}
+.box-model{
+    margin-top: 60px;
+}
+#height, #weight, #age, #sex{
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    border: none;
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 0.4);
+}
+#height, #weight{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#factor{
+    width: 570px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: -10px;
+}
+/* bmi calculator and box user input styles ends here */
 
 /* Responsive part starts here */
 
@@ -262,7 +332,6 @@ body{
         flex-direction: column;
         height: 620px;
     }
-    .
     .part4{
         width: 90%;
         padding: 0;
@@ -272,4 +341,28 @@ body{
     .running-img{
         margin-right: 0;
     }
+    .bmi-box{
+        flex-direction: column;
+        height: 800px;
+        text-align: center;
+
+    }
+    .box-model{
+        margin: 0 auto;
+    }
+    #height{
+        margin-bottom: 0px;
+    }
+    #age{
+        margin-bottom: 10px;
+   }
+   #height, #weight, #age, #sex{
+    width: 44%;
+   }
+   #factor{
+    width: 90%;
+   }
+   .bmi-calculator{
+      margin: 0 auto;
+}
 }
