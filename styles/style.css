@@ -234,7 +234,7 @@ body{
     width: 370px;
     height: 300px; 
     /* border: 2px solid green; */
-    background-image: url(../styles/run.jpg);
+    background-image: url('../styles/run.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -351,6 +351,75 @@ color: rgba(255, 255, 255, 0.60);
     filter: brightness(70%);
 }
 /* Meet our team styles ends here */
+/* Unique section styles starts here */
+.unique-container{
+    width: 90%;
+    margin: 0 auto;
+    height: 350px;
+    margin-bottom: 3rem;
+    border-radius: 18px;
+    background-image: url('../styles/fitness.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+.part6{
+    width: 440px;
+    height: 290px;
+    padding: 20px;
+    margin-left: 50px;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+}
+.part6 h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.btn5{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: seagreen;
+    border: 1px solid yellowgreen;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.btn5 a{
+    text-decoration: none;
+    color: snow;
+}
+.btn5 a:hover{
+    color: red;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+.btn6 a:hover{
+    color: red;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+.btn6{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: gray;
+    border: 1px solid brown;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn6 a{
+    text-decoration: none;
+    color: snow;
+}
+
+/* Unique section styles starts here */
 /* footer section styles strats here */
 .fot-container{
     width: 100%;
@@ -500,5 +569,13 @@ hr{
 .three-container{
     width: 96%;
 }
- 
+ .unique-container{
+    width: 100%;
+ }
+ .part6{
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+    
+}
 }
