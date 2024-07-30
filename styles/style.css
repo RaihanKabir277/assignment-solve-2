@@ -233,7 +233,7 @@ body{
 .running-img{
     width: 370px;
     height: 300px; 
-    background-image: url('../styles/run.jpg');
+    background-image: url('./run.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
