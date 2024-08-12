@@ -320,6 +320,7 @@ color: rgba(255, 255, 255, 0.60);
 }
 .img-container3{
     margin: 3rem auto;
+    padding: 0;
     width: 90%;
     height: 650px;
     border-radius: 18px;
@@ -332,7 +333,10 @@ color: rgba(255, 255, 255, 0.60);
     width: 330px;
     height: 280px;
     position: relative;
-    margin: 20px 20px;
+    margin: 20px;
+}
+.img-container3, .pic-container, .pic {
+    overflow: hidden;
 }
 .pic-container p{
    margin-top: 20px;
